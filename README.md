@@ -1,6 +1,7 @@
 # PLAYER
-Desktop music application with simplistic GUI and collecting musics in MYSQL provides,
+Desktop music application with simplistic GUI and collects musics in MYSQL.
 
+Provides,
 Login Sign-up pages,
 Adding and removing musics to playlist,
 Changing sound levels,
