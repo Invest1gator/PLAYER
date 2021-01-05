@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Menu">
+  <grid id="27dc6" binding="menuPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="1" vgap="1">
+    <margin top="1" left="10" bottom="1" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="624" height="400"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0"/>
+      <alignmentY value="1.0"/>
+      <autoscrolls value="true"/>
+      <background color="-16548109"/>
+      <font name="MV Boli" size="20" style="0"/>
+      <foreground color="-15263977"/>
+      <minimumSize width="256" height="364"/>
+      <preferredSize width="300" height="350"/>
+    </properties>
+    <border type="etched" title-justification="2" title-position="3">
+      <color color="-4473925"/>
+    </border>
+    <children>
+      <component id="735" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <autoscrolls value="false"/>
+          <background color="-16733101"/>
+          <doubleBuffered value="true"/>
+          <focusable value="false"/>
+          <font name="Segoe Script" size="24" style="3"/>
+          <foreground color="-16711423"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <iconTextGap value="5"/>
+          <text value="Welcome !"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="12e21" class="javax.swing.JLabel" binding="select">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/select song.png"/>
+          <text value="Select Song"/>
+        </properties>
+      </component>
+      <component id="7d3ad" class="javax.swing.JLabel" binding="showAll">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/show all.png"/>
+          <text value="Show All Songs"/>
+        </properties>
+      </component>
+      <component id="e99b1" class="javax.swing.JLabel" binding="addSong">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/addsong.png"/>
+          <text value="Add a New Song"/>
+        </properties>
+      </component>
+      <component id="b9e72" class="javax.swing.JLabel" binding="displayPlaylist">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/playlist.png"/>
+          <text value="Display My Playlist"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

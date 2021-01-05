@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AddSong">
+  <grid id="27dc6" binding="AddSongPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16548109"/>
+      <font name="Ink Free" size="12" style="1"/>
+      <preferredSize width="555" height="111"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="523f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4275456"/>
+          <font name="Ink Free" size="20" style="1"/>
+          <foreground color="-14803426"/>
+          <icon value="icons/dj.png"/>
+          <text value="Music Type :"/>
+        </properties>
+      </component>
+      <component id="a7cf5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="20" style="1"/>
+          <foreground color="-14803426"/>
+          <icon value="icons/singer.png"/>
+          <text value="Artist Name :"/>
+        </properties>
+      </component>
+      <component id="127f8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="20" style="1"/>
+          <foreground color="-14803426"/>
+          <icon value="icons/song.png"/>
+          <text value="Song Name :"/>
+        </properties>
+      </component>
+      <vspacer id="1f958">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="177ad" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9598064"/>
+          <foreground color="-3684608"/>
+        </properties>
+      </component>
+      <component id="f2647" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9598064"/>
+          <foreground color="-3684608"/>
+        </properties>
+      </component>
+      <component id="26025" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9598064"/>
+          <foreground color="-3684608"/>
+        </properties>
+      </component>
+      <component id="96429" class="javax.swing.JLabel" binding="back">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="4" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/back (1).png"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="cb914" class="javax.swing.JLabel" binding="add">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/addsong.png"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

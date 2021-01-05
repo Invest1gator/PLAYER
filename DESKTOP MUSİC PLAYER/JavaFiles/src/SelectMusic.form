@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SelectMusic">
+  <grid id="27dc6" binding="SelectMusicPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="511" height="300"/>
+    </constraints>
+    <properties>
+      <background color="-16548109"/>
+      <foreground color="-16548109"/>
+      <minimumSize width="200" height="300"/>
+      <preferredSize width="300" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="27a0d" class="javax.swing.JComboBox" binding="MusicType">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16548109"/>
+          <font name="MV Boli" size="14"/>
+          <foreground color="-4275456"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="ae5ed" class="javax.swing.JComboBox" binding="chooseArtist">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16548109"/>
+          <focusCycleRoot value="true"/>
+          <font name="MV Boli" size="14"/>
+          <foreground color="-3684608"/>
+          <model/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="7905e" class="javax.swing.JComboBox" binding="Song">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16548109"/>
+          <enabled value="true"/>
+          <font name="MV Boli" size="14"/>
+          <foreground color="-3684608"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="7808f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11606704"/>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-14803426"/>
+          <icon value="icons/dj.png"/>
+          <text value="Music Type"/>
+        </properties>
+      </component>
+      <component id="89f84" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11606704"/>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-14803426"/>
+          <icon value="icons/singer.png"/>
+          <text value="Select Artist"/>
+        </properties>
+      </component>
+      <component id="cabcf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11606704"/>
+          <font name="MV Boli" size="20" style="0"/>
+          <foreground color="-14803426"/>
+          <icon value="icons/song.png"/>
+          <text value="Select Song"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

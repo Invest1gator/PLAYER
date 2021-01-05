@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PlaySong">
+  <grid id="27dc6" binding="playPanel" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="1" left="1" bottom="1" right="1"/>
+    <constraints>
+      <xy x="20" y="11" width="756" height="409"/>
+    </constraints>
+    <properties>
+      <background color="-16548109"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <focusCycleRoot value="false"/>
+      <focusTraversalPolicyProvider value="false"/>
+      <focusable value="true"/>
+      <font name="MV Boli" size="26" style="3"/>
+      <foreground color="-16548109"/>
+      <maximumSize width="2147483647" height="2147483647"/>
+      <minimumSize width="-1" height="-1"/>
+      <preferredSize width="550" height="250"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="line">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="65d8a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="22" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/enable-sound2.png"/>
+          <text value="Playing : "/>
+        </properties>
+      </component>
+      <component id="433bc" class="javax.swing.JLabel" binding="music">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+          <background color="-16548109"/>
+          <enabled value="true"/>
+          <font name="MV Boli" size="24" style="0"/>
+          <foreground color="-15263977"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Label"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="6c92d" class="javax.swing.JLabel" binding="exit">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="22" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/logout.png"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="a958e" class="javax.swing.JLabel" binding="addToPlaylistLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="22" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/add.png"/>
+          <text value="Add to Playlist"/>
+        </properties>
+      </component>
+      <component id="9e0d9" class="javax.swing.JLabel" binding="back">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="22" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/back (1).png"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="90ffd" class="javax.swing.JLabel" binding="removeFromPlaylist">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="22" style="0"/>
+          <foreground color="-15263977"/>
+          <icon value="icons/removePlaylist.png"/>
+          <text value="Remove From Playlist"/>
+        </properties>
+      </component>
+      <vspacer id="5d6cd">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9b672" class="javax.swing.JLabel" binding="play_pause">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/deneme1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="116a7" class="javax.swing.JLabel" binding="vol">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Script" size="18" style="0"/>
+          <foreground color="-15263977"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="97dcd" class="javax.swing.JLabel" binding="lowerSound">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="11" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/lower sound.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f8076" class="javax.swing.JLabel" binding="IncreaseSound">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/increase sound.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
